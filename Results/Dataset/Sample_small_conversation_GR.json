@@ -1,0 +1,200 @@
+{
+  "participants": [
+    {
+      "name": "Maria Lina"
+    },
+    {
+      "name": "Yannis Skordas"
+    },
+    {
+      "name": "Nikos Georgiou"
+    },
+    {
+      "name": "Eleni Papadopoulou"
+    },
+    {
+      "name": "Giorgos Konstantinidis"
+    },
+    {
+      "name": "Dimitris Apostolou"
+    },
+    {
+      "name": "Sofia Nikolaou"
+    },
+    {
+      "name": "Kostas Papas"
+    },
+    {
+      "name": "Alexandros Dimitriou"
+    },
+    {
+      "name": "Anna Kosta"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Maria Lina",
+      "timestamp_ms": 1687098650761,
+      "content": "Ελα ρε φίλε?",
+      "reactions": []
+    },
+    {
+      "sender_name": "Yannis Skordas",
+      "timestamp_ms": 1687098750761,
+      "content": "Τι κάνεις?",
+      "reactions": [
+        {
+          "reaction": "😂",
+          "actor": "Nikos Georgiou"
+        }
+      ]
+    },
+    {
+      "sender_name": "Nikos Georgiou",
+      "timestamp_ms": 1687098850761,
+      "content": "Καλά είμαι, εσύ?",
+      "reactions": [
+        {
+          "reaction": "👍",
+          "actor": "Eleni Papadopoulou"
+        }
+      ]
+    },
+    {
+      "sender_name": "Eleni Papadopoulou",
+      "timestamp_ms": 1687098950761,
+      "content": "Πολύ καλά!",
+      "reactions": []
+    },
+    {
+      "sender_name": "Giorgos Konstantinidis",
+      "timestamp_ms": 1687099050761,
+      "content": "Πάμε για καφέ?",
+      "reactions": []
+    },
+    {
+      "sender_name": "Dimitris Apostolou",
+      "timestamp_ms": 1687099150761,
+      "content": "Πότε?",
+      "reactions": [
+        {
+          "reaction": "❤️",
+          "actor": "Sofia Nikolaou"
+        }
+      ]
+    },
+    {
+      "sender_name": "Sofia Nikolaou",
+      "timestamp_ms": 1687099250761,
+      "content": "Αύριο?",
+      "reactions": []
+    },
+    {
+      "sender_name": "Kostas Papas",
+      "timestamp_ms": 1687099350761,
+      "content": "Τέλεια, είμαι μέσα.",
+      "reactions": []
+    },
+    {
+      "sender_name": "Alexandros Dimitriou",
+      "timestamp_ms": 1687099450761,
+      "content": "Εγώ δεν μπορώ αύριο, την Παρασκευή?",
+      "reactions": []
+    },
+    {
+      "sender_name": "Anna Kosta",
+      "timestamp_ms": 1687099550761,
+      "content": "Συμφωνώ για Παρασκευή!",
+      "reactions": [
+        {
+          "reaction": "👍",
+          "actor": "Maria Lina"
+        }
+      ]
+    },
+    {
+      "sender_name": "Maria Lina",
+      "timestamp_ms": 1687100150761,
+      "content": "Πού θέλετε να πάμε?",
+      "reactions": []
+    },
+    {
+      "sender_name": "Yannis Skordas",
+      "timestamp_ms": 1687100250761,
+      "content": "Πώς σας φαίνεται το καφέ στην πλατεία?",
+      "reactions": [
+        {
+          "reaction": "❤️",
+          "actor": "Nikos Georgiou"
+        }
+      ]
+    },
+    {
+      "sender_name": "Nikos Georgiou",
+      "timestamp_ms": 1687100350761,
+      "content": "Μια χαρά, καλή ιδέα!",
+      "reactions": []
+    },
+    {
+      "sender_name": "Eleni Papadopoulou",
+      "timestamp_ms": 1687100450761,
+      "content": "Εντάξει, θα είμαι εκεί.",
+      "reactions": [
+        {
+          "reaction": "👍",
+          "actor": "Giorgos Konstantinidis"
+        }
+      ]
+    },
+    {
+      "sender_name": "Giorgos Konstantinidis",
+      "timestamp_ms": 1687100550761,
+      "content": "Τέλεια, στις 7:00?",
+      "reactions": []
+    },
+    {
+      "sender_name": "Dimitris Apostolou",
+      "timestamp_ms": 1687100650761,
+      "content": "Ναι, στις 7:00!",
+      "reactions": []
+    },
+    {
+      "sender_name": "Sofia Nikolaou",
+      "timestamp_ms": 1687100750761,
+      "content": "Τα λέμε τότε!",
+      "reactions": [
+        {
+          "reaction": "😊",
+          "actor": "Kostas Papas"
+        }
+      ]
+    },
+    {
+      "sender_name": "Kostas Papas",
+      "timestamp_ms": 1687100850761,
+      "content": "Ναι, ναι, καλή αντάμωση!",
+      "reactions": []
+    },
+    {
+      "sender_name": "Alexandros Dimitriou",
+      "timestamp_ms": 1687100950761,
+      "content": "Ανυπομονώ!",
+      "reactions": []
+    },
+    {
+      "sender_name": "Anna Kosta",
+      "timestamp_ms": 1687101050761,
+      "content": "Και εγώ!",
+      "reactions": [
+        {
+          "reaction": "❤️",
+          "actor": "Maria Lina"
+        }
+      ]
+    }
+  ],
+  "title": "Maria Papataxiarchi",
+  "is_still_participant": true,
+  "thread_path": "inbox/mariapapataxiarchi_10223000675223354",
+  "magic_words": []
+}
