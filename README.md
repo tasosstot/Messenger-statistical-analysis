@@ -1,17 +1,20 @@
-#Facebook analysis with python and pandas#
+## Facebook Analysis with Python and Pandas ## 
+### Overview ###
+In this project, we analyze the basic statistics of Messenger chat history. Facebook provides a JSON file containing all your chats in Messenger, including timestamps, message content, author information, and reactions. By using Python and pandas, we can collect statistical data and visualize it in bar charts.
 
-In this project we analyse the basic statistics of Messenger chat history.
-Facebook provides the JSON file of all your chats in messenger in which it contains the timestamps of the messages,
-the content itself, the author and the reactions. with the help of python and pandas we can collect the statistical data in an Excel file and visualise them in bar charts.
+### Information Collected ###
+We focus on the following metrics:
 
-The information we collect is as follows:
-    1. The number of messages
-    2. The number of words
-    3. The most used words
-    5. Reactions 
+1. Number of messages
+2. Number of words
+3. Most frequently used words
+4. Reactions
 
-Just download the JSON file of your messenger chat (Click on the link to find out how https://www.bitrecover.com/blog/download-facebook-messenger-chat-history/)
-
-
-In this repository you will find the Code folder, which contains the project's code in .py and an .ipynb file. You can simply run the .ipynb in Jupiter notebook environment for instant results,
-just rename the field of the input file (with open("message_1_gtms.json", "r", encoding="unicode-escape") as file:) with your JSON file. And the second folder containing the results in jpeg and excel type 
+### Getting Started ###
+1. Download Your Messenger Chat History:
+    Obtain the JSON file of your Messenger chat. You can find instructions on how to download it here.
+2. Project Structure:
+    The Code folder in this repository contains the project’s code in both .py and .ipynb formats.
+    To get instant results, run the .ipynb file in a Jupyter Notebook environment.
+    Make sure to rename the input file (e.g., with open("message_1_gtms.json", "r", encoding="unicode-escape") as file:) with your own JSON file.
+    \* The second folder contains the results in JPEG and Excel formats. \* 
