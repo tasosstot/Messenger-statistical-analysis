@@ -14,7 +14,7 @@ In this project, we analyze the basic statistics of Messenger chat history. Face
 1. #### Download Your Messenger Chat History: ####
    - Obtain the JSON file of your Messenger chat. You can find instructions on how to download it here.
 2. #### Project Structure: ####
-    - The Code folder in this repository contains the project’s code in both .py and .ipynb formats.
-    - To get instant results, run the .ipynb file in a Jupyter Notebook environment.
-    -  Make sure to rename the input file (e.g., with open("message_1_gtms.json", "r", encoding="unicode-escape") as file:) with your own JSON file.
+    - The Code folder in this repository contains the project’s code in both ``` .py ``` and ```  .ipynb ```  formats.
+    - To get instant results, run the ``` .ipynb ``` file in a Jupyter Notebook environment.
+    -  Make sure to rename the input file (e.g., ``` with open("message_1_gtms.json", "r", encoding="unicode-escape") as file:) ```  with your own JSON file.
     - The second folder contains the results in JPEG and Excel formats. 
