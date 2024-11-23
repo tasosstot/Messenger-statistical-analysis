@@ -1,20 +1,59 @@
-## Facebook Analysis with Python and Pandas ## 
-### Overview ###
-In this project, we analyze the basic statistics of Messenger chat history. Facebook provides a JSON file containing all your chats in Messenger, including timestamps, message content, author information, and reactions. By using Python and pandas, we can collect statistical data and visualize it in bar charts.
+# Message Analysis Tool
 
-### Information Collected ###
-#### We focus on the following metrics: ####
+A Python tool for analyzing chat data from JSON files, designed to extract meaningful insights such as message counts, reactions, word usage, and more.
 
-1. Number of messages
-2. Number of words
-3. Most frequently used words
-4. Reactions
+---
 
-### Getting Started ###
-1. #### Download Your Messenger Chat History: ####
-   - Obtain the JSON file of your Messenger chat. You can find instructions on how to download it here.
-2. #### Project Structure: ####
-    - The Code folder in this repository contains the project’s code in both ``` .py ``` and ```  .ipynb ```  formats.
-    - To get instant results, run the ``` .ipynb ``` file in a Jupyter Notebook environment.
-    -  Make sure to rename the input file (e.g., ``` with open("message_1_gtms.json", "r", encoding="unicode-escape") as file:) ```  with your own JSON file.
-    - The second folder contains the results in JPEG and Excel formats. 
+## Features
+
+- Counts messages and reactions for each sender.
+- Tracks the usage of specific words (e.g., "Καλημέρα").
+- Calculates the total number of letters sent by each participant.
+- Groups messages by date and day of the week.
+- Identifies the most common words based on length.
+- Outputs results into easy-to-read Excel files.
+
+---
+
+## Requirements
+
+Ensure the following Python libraries are installed:
+- `pandas`
+- `nltk`
+- `openpyxl`
+
+Install them using:
+```bash
+pip install pandas nltk openpyxl
+
+
+Workflow 🔄
+Step 1: Convert JSON to UTF-8
+Run the convertToUTF8.py script to process the raw Facebook JSON file:
+Step 2: Translate Greeklish to Greek
+python custom_translate_greeklish.py
+Step 3: Analyze the Translated Data
+python Basic_Stats.py
+
+
+Outputs 📂
+The program generates the following outputs:
+
+Excel Files:
+
+letter_counts.xlsx: Counts the number of letters sent by each user.
+message_counts.xlsx: Tracks the total messages sent by each user.
+reaction_counts.xlsx: Aggregates reactions for each sender.
+word_counts.xlsx: Tracks word usage.
+Results_Merged.xlsx: Merged summary of all metrics.
+Visualizations:
+
+Saved in the results/diagrams folder, showcasing charts like:
+Most active days.
+Word frequency distributions.
+
+
+Limitations ⚠️
+Language Support: Currently supports datasets in Greek and Greeklish only.
+Facebook-Specific: Designed for Messenger JSON exports.
+
