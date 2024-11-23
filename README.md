@@ -57,3 +57,4 @@ Limitations ⚠️
 Language Support: Currently supports datasets in Greek and Greeklish only.
 Facebook-Specific: Designed for Messenger JSON exports.
 
+![alt text](https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg)
